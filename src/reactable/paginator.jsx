@@ -27,7 +27,7 @@ export class Paginator {
                         return function() {
                             this.props.onPageChange(pageNum);
                         }.bind(this);
-                    }.bind(this))(i)}>{i + 1}</a>
+                    }.bind(this))(i)}>{i + 1 + " "}</a>
             );
         }
 
